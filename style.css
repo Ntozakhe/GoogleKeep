@@ -277,9 +277,13 @@ input:focus {
   display: flex;
   padding: 0;
   justify-content: center;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
+.note:hover .note-footer{
+  visibility: visible;
+}
+ 
 
 
 .note-footer .material-symbols-outlined {
@@ -292,6 +296,10 @@ input:focus {
   top: -20px;
   left: -20px;
   visibility: hidden;
+}
+
+.note:hover .check-circle{
+  visibility: visible;
 }
 
 
